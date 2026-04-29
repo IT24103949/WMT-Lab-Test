@@ -7,11 +7,15 @@
    npm install
    ```
 3. Copy `.env.example` to `.env`
-4. Update `MONGO_URI` if needed.
+4. Update `MONGO_URI` if needed (for MongoDB Atlas, replace with your connection string).
 5. Start the server:
    ```bash
    npm run dev
    ```
+
+## MongoDB Setup
+- Local: Install MongoDB Community Edition from https://www.mongodb.com/try/download/community and start the service.
+- Cloud: Use MongoDB Atlas (free tier available).
 
 ## API Endpoints
 - `GET /api/items`

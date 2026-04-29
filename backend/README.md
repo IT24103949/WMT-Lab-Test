@@ -13,6 +13,11 @@
    npm run dev
    ```
 
+## Deployment to Vercel
+1. Install Vercel CLI: `npm i -g vercel`
+2. Deploy: `vercel --prod` (from backend folder)
+3. Set environment variables in Vercel dashboard: `MONGO_URI`, `PORT`
+
 ## MongoDB Setup
 - Local: Install MongoDB Community Edition from https://www.mongodb.com/try/download/community and start the service.
 - Cloud: Use MongoDB Atlas (free tier available).

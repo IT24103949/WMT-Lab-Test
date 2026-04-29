@@ -7,12 +7,15 @@
    npm install
    ```
 3. Copy `.env.example` to `.env`
-4. Start the frontend:
+4. Update `VITE_API_URL` for production (e.g., `https://your-backend-domain/api`)
+5. Start the frontend:
    ```bash
    npm run dev
    ```
 
+## Deployment
+- Deployed at: https://wmt-lab-test-swart.vercel.app
+
 ## Notes
 - The frontend expects the backend API at `VITE_API_URL`.
-- Example:
-  `VITE_API_URL=http://localhost:5000/api`
+- For production, set `VITE_API_URL` to your deployed backend URL.
